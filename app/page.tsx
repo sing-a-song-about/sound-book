@@ -102,13 +102,3 @@ export default function Home() {
   );
 }
 
-import Upload from "./components/Upload";
-
-export default function Home() {
-  return (
-    <main className="min-h-screen p-8">
-      <h1 className="text-2xl font-bold mb-4">📚 製作有聲書平台</h1>
-      <Upload />
-    </main>
-  );
-}
